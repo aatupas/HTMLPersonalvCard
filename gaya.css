@@ -1,0 +1,161 @@
+/* Gaya CSS untuk vCard */
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Pengaturan background untuk mode terang dan gelap */
+.bg-gray-600 {
+  background-color: #4B5563; /* Mode terang */
+}
+
+.bg-gray-900 {
+  background-color: #111827; /* Mode gelap */
+}
+
+.text-white {
+  color: #ffffff; /* Warna teks untuk mode gelap */
+}
+
+.text-gray-700 {
+  color: #4B5563; /* Teks utama */
+}
+
+.text-gray-600 {
+  color: #4B5563; /* Warna teks tambahan */
+}
+
+.text-indigo-500 {
+  color: #6366F1; /* Warna utama untuk ikon dan teks */
+}
+
+.text-indigo-600 {
+  color: #4F46E5; /* Warna hover untuk ikon dan teks */
+}
+
+.bg-blue-200 {
+  background-color: #BFDBFE; /* Warna latar belakang untuk tag */
+}
+
+.text-gray-200 {
+  color: #E5E7EB; /* Teks terang untuk mode gelap */
+}
+
+/* Styling untuk tombol */
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #4B5563; /* Tombol hover untuk mode terang */
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5); /* Fokus pada tombol */
+}
+
+/* Social Media Icons */
+.fab {
+  font-size: 1.5rem; /* Ukuran ikon sosial */
+}
+
+/* Styling untuk vCard */
+.vcard-card {
+  max-width: 350px;
+  width: 100%;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.vcard-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.vcard-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background: linear-gradient(135deg, #4F46E5, #F472B6);
+  color: white;
+}
+
+.vcard-header img {
+  border: 3px solid white;
+}
+
+.vcard-body {
+  padding: 1rem;
+}
+
+.vcard-footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vcard-footer a {
+  text-decoration: none;
+  color: #6366F1;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 1rem;
+  transition: background 0.3s ease;
+}
+
+.vcard-footer a:hover {
+  background-color: #6366F1;
+  color: white;
+}
+
+/* Custom Styling for Tags */
+.inline-block {
+  display: inline-block;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.py-1 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+/* Floating theme switch button */
+#theme-toggle {
+  background-color: #3B82F6;
+  border-radius: 50%;
+  padding: 12px;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+#theme-toggle:hover {
+  background-color: #2563EB;
+}
+
+#theme-icon {
+  font-size: 1.5rem;
+  color: white;
+}
